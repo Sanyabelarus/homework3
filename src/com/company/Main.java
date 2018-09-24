@@ -31,7 +31,7 @@ public class Main {
         int radius;
         System.out.println("Введите радиус круга");
         radius = isNumber();
-        if (Math.sqrt((Math.pow(side1,2)+Math.pow(side2,2))/2)<=radius*2){
+        if (Math.sqrt(Math.pow(side1,2)+Math.pow(side2,2))<=radius*2){
             System.out.println("Круг закроет отверстие");
         }else {
             System.out.println("Круг не закроет отверстие");
