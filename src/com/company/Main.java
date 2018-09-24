@@ -22,7 +22,7 @@ public class Main {
             }}
         return 0;
     }
-    public static void zakririe (){
+    public static void zakririe (){                                     // Основной метод
         Random random = new Random();
         int side1 = random.nextInt(100+1);
         System.out.println(side1);
